@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddNewContactTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-01-23T18:40:17" hostname="DESKTOP-46KRLH8" time="15.319">
+  <properties/>
+  <testcase name="addNewContactAddressWrong" classname="tests.AddNewContactTests" time="4.692"/>
+  <testcase name="addNewContactPhoneWrong" classname="tests.AddNewContactTests" time="4.295"/>
+  <testcase name="addNewContactSuccess" classname="tests.AddNewContactTests" time="2.711"/>
+  <testcase name="addNewContactSuccessRequiredFields" classname="tests.AddNewContactTests" time="1.757"/>
+  <testcase name="addNewContactWrongEmail" classname="tests.AddNewContactTests" time="1.307"/>
+  <testcase name="addNewContactWrongLastName" classname="tests.AddNewContactTests" time="0.273"/>
+  <testcase name="addNewContactWrongName" classname="tests.AddNewContactTests" time="0.258"/>
+  <system-out><![CDATA[ Phone not valid: Phone number must contain only digits! And length min 10, max 15!
+Email not valid: должно иметь формат адреса электронной почты
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
